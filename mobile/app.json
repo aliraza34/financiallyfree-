@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FinanciallyFree",
+    "slug": "financiallyfree",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "permissions": [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE",
+        "android.permission.POST_NOTIFICATIONS"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.alirazaa.financiallyfree"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#00c896"
+        }
+      ]
+    ]
+  }
+}
